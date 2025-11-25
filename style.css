@@ -1,0 +1,101 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #f7f7f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #d04e64, #f69aad);
+  color: white;
+  padding: 60px 16px 40px;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+/* Main layout */
+main {
+  max-width: 900px;
+  margin: 24px auto 40px;
+  padding: 0 16px;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(208, 78, 100, 0.06);
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Facts grid */
+.facts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.fact h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+  color: #d04e64;
+}
+
+.fact p {
+  font-size: 0.96rem;
+}
+
+/* Info note */
+.info-note {
+  border-style: dashed;
+  border-color: rgba(208, 78, 100, 0.4);
+}
+
+/* Links */
+a {
+  color: #d04e64;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+  padding: 16px 0 24px;
+}
